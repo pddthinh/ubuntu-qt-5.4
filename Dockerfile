@@ -79,7 +79,9 @@ RUN apt-get install -qy --no-install-recommends \
     xterm \
     gdbserver x11-utils \
     apt-utils
-    
+
+RUN apt-get install -qy --no-install-recommends \
+	ca-certificates
 
 # moving configuration
 COPY opt-qt-5.4.0-lib.conf /etc/ld.so.conf.d/opt-qt-5.4.0-lib.conf

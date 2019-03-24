@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=IDE;
+Keywords=Qt;
+Exec=gnome-terminal -e /home/pddthinh/working/docker/ubuntu-qt-5.4/docker-run.sh
+Icon=/home/pddthinh/working/docker/ubuntu-qt-5.4/qtcreator.png
+MimeType=text/x-tex;
+Name=Qt Creator
+StartupNotify=false
+Terminal=false
+Type=Application

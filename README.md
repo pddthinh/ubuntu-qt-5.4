@@ -15,3 +15,11 @@ cat qt540.tar.xz.* > qt540.tar.xz
 ```
 ./docker-run.sh
 ```
+* To use the *QtCreator.desktop* file
+** Check out the project into a folder, ex: /opt/ubuntu-qt-5.4
+** Copy the file *QtCreator.desktop* into the Desktop folder
+** Edit the file
+```
+Exec=gnome-terminal -e /opt/ubuntu-qt-5.4/docker-run.sh
+Icon=/opt/ubuntu-qt-5.4/qtcreator.png
+```
